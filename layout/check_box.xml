@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+
+            <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_call"
+                android:buttonTint="@color/colorgreen"
+            android:id="@+id/cb_contacted" />
+
+        <CheckBox
+            android:buttonTint="@color/colorgreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_design"
+            android:id="@+id/cb_design" />
+
+        <CheckBox
+            android:buttonTint="@color/colorgreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_delivery"
+            android:id="@+id/cb_devilery" />
+
+        <CheckBox
+            android:buttonTint="@color/colorgreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_thankyou"
+            android:id="@+id/cb_thankyou" />
+
+   </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

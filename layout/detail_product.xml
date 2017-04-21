@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_image_black_48dp"
+        android:id="@+id/imageView_recycle_viwer"
+        android:background="@drawable/draw"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_name_recyler_viewer" />
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_o_price_recyler_viewer"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv_d_price_recyler_viewer"  />
+
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#d3d3d3"/>
+    </LinearLayout>
